@@ -2,7 +2,7 @@ import requests as req
 import boto3
 from io import StringIO
 from airflow import DAG
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 from airflow.operators.python import PythonOperator
 import pandas as pd
 import os
@@ -10,7 +10,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def get_nasa_data(ti) -> None:
-    url = f"https://api.nasa.gov/neo/rest/v1/feed?start_date=2024-06-18&end_date=2024-06-23&api_key={os.getenv('API_KEY')}"
+    today = date.today()
+    startDate = today.strftime("%Y-%m-%d")
+    endDate = today + timedelta(days=7)
+    url = f"https://api.nasa.gov/neo/rest/v1/feed?start_date={startDate}&end_date={endDate}&api_key={os.getenv('API_KEY')}"
     response = req.get(url)
     response.raise_for_status()
     data = response.json()
@@ -70,7 +73,7 @@ with DAG(
     task2 = PythonOperator(
         task_id='transform_nasa_data',
         python_callable=transform_data,
-        retries=3  # Defina o número de tentativas para a task2
+        retries=3  # Número de tentativas para a task2
     )
 
     task3 = PythonOperator(
