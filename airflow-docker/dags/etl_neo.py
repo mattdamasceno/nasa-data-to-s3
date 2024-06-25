@@ -59,26 +59,26 @@ default_args = {
 
 with DAG(
     default_args=default_args,
-    dag_id='nasa_to_s3',
-    description='Fetch data from NASA and save to S3',
+    dag_id='nasa_neo_data_to_s3',
+    description='Fetch Near Earth Object data from NASA and save to S3',
     start_date=datetime(2024, 6, 23),
     schedule_interval=timedelta(days=1)
 ) as dag:
 
-    task1 = PythonOperator(
+    task1_neo = PythonOperator(
         task_id='fetch_nasa_data',
         python_callable=get_nasa_data
     )
 
-    task2 = PythonOperator(
+    task2_neo = PythonOperator(
         task_id='transform_nasa_data',
         python_callable=transform_data,
         retries=3  # Número de tentativas para a task2
     )
 
-    task3 = PythonOperator(
+    task3_neo = PythonOperator(
         task_id='load_data_to_aws',
         python_callable=load_data_to_aws
     )
 
-    task1 >> task2 >> task3
+    task1_neo >> task2_neo >> task3_neo

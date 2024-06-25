@@ -1,0 +1,41 @@
+[2024-06-25T16:51:53.222+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-25T16:51:53.241+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: nasa_exo_data_to_s3.transform_nasa_exo_data manual__2024-06-25T16:32:38.447532+00:00 [queued]>
+[2024-06-25T16:51:53.249+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: nasa_exo_data_to_s3.transform_nasa_exo_data manual__2024-06-25T16:32:38.447532+00:00 [queued]>
+[2024-06-25T16:51:53.250+0000] {taskinstance.py:2306} INFO - Starting attempt 3 of 4
+[2024-06-25T16:51:53.263+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transform_nasa_exo_data> on 2024-06-25 16:32:38.447532+00:00
+[2024-06-25T16:51:53.270+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=281) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-06-25T16:51:53.271+0000] {standard_task_runner.py:63} INFO - Started process 288 to run task
+[2024-06-25T16:51:53.271+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'nasa_exo_data_to_s3', 'transform_nasa_exo_data', 'manual__2024-06-25T16:32:38.447532+00:00', '--job-id', '91', '--raw', '--subdir', 'DAGS_FOLDER/etl_exo.py', '--cfg-path', '/tmp/tmptgv_lh4b']
+[2024-06-25T16:51:53.272+0000] {standard_task_runner.py:91} INFO - Job 91: Subtask transform_nasa_exo_data
+[2024-06-25T16:51:53.350+0000] {task_command.py:426} INFO - Running <TaskInstance: nasa_exo_data_to_s3.transform_nasa_exo_data manual__2024-06-25T16:32:38.447532+00:00 [running]> on host 95b3b965c5b1
+[2024-06-25T16:51:53.446+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='test' AIRFLOW_CTX_DAG_ID='nasa_exo_data_to_s3' AIRFLOW_CTX_TASK_ID='transform_nasa_exo_data' AIRFLOW_CTX_EXECUTION_DATE='2024-06-25T16:32:38.447532+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-25T16:32:38.447532+00:00'
+[2024-06-25T16:51:53.447+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-25T16:51:53.685+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-25T16:51:53.686+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/etl_exo.py", line 38, in transform_exo_data
+    data = response.json()
+           ^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'json'
+[2024-06-25T16:51:53.696+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=nasa_exo_data_to_s3, task_id=transform_nasa_exo_data, run_id=manual__2024-06-25T16:32:38.447532+00:00, execution_date=20240625T163238, start_date=20240625T165153, end_date=20240625T165153
+[2024-06-25T16:51:53.708+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 91 for task transform_nasa_exo_data ('list' object has no attribute 'json'; 288)
+[2024-06-25T16:51:53.726+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-06-25T16:51:53.748+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-25T16:51:53.749+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

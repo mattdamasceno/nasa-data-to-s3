@@ -369,3 +369,234 @@
 [2024-06-25T14:13:10.864+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:13:10.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-25T14:13:10.878+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:13:10.878+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
 [2024-06-25T14:13:10.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.470 seconds
+[2024-06-25T14:13:41.033+0000] {processor.py:161} INFO - Started process (PID=458) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:13:41.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:13:41.035+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:13:41.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:13:41.499+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:13:41.518+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:13:41.517+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:13:41.532+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:13:41.532+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:13:41.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.518 seconds
+[2024-06-25T14:14:11.668+0000] {processor.py:161} INFO - Started process (PID=466) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:14:11.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:14:11.670+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:14:11.670+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:14:12.129+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:14:12.148+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:14:12.148+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:14:12.165+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:14:12.165+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:14:12.178+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.514 seconds
+[2024-06-25T14:14:42.325+0000] {processor.py:161} INFO - Started process (PID=474) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:14:42.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:14:42.327+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:14:42.326+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:14:42.816+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:14:42.835+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:14:42.835+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:14:42.851+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:14:42.850+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:14:42.864+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.543 seconds
+[2024-06-25T14:15:12.929+0000] {processor.py:161} INFO - Started process (PID=482) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:15:12.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:15:12.932+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:15:12.931+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:15:13.423+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:15:13.441+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:15:13.441+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:15:13.456+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:15:13.456+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:15:13.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.543 seconds
+[2024-06-25T14:15:43.620+0000] {processor.py:161} INFO - Started process (PID=490) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:15:43.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:15:43.622+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:15:43.622+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:15:44.067+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:15:44.089+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:15:44.089+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:15:44.105+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:15:44.104+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:15:44.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.501 seconds
+[2024-06-25T14:16:14.238+0000] {processor.py:161} INFO - Started process (PID=498) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:16:14.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:16:14.240+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:16:14.240+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:16:14.690+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:16:14.710+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:16:14.710+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:16:14.724+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:16:14.724+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:16:14.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.502 seconds
+[2024-06-25T14:16:44.886+0000] {processor.py:161} INFO - Started process (PID=506) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:16:44.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:16:44.888+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:16:44.888+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:16:45.326+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:16:45.346+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:16:45.346+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:16:45.363+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:16:45.363+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:16:45.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.496 seconds
+[2024-06-25T14:17:15.521+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:17:15.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:17:15.523+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:17:15.523+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:17:15.950+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:17:15.971+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:17:15.971+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:17:15.987+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:17:15.987+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:17:16.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.483 seconds
+[2024-06-25T14:17:46.148+0000] {processor.py:161} INFO - Started process (PID=522) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:17:46.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:17:46.151+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:17:46.151+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:17:46.576+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:17:46.595+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:17:46.595+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:17:46.610+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:17:46.610+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:17:46.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.481 seconds
+[2024-06-25T14:18:16.775+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:18:16.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:18:16.777+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:18:16.777+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:18:17.218+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:18:17.238+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:18:17.238+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:18:17.253+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:18:17.253+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:18:17.266+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.496 seconds
+[2024-06-25T14:18:47.416+0000] {processor.py:161} INFO - Started process (PID=539) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:18:47.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:18:47.418+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:18:47.418+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:18:47.852+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:18:47.870+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:18:47.870+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:18:47.885+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:18:47.885+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:18:47.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.485 seconds
+[2024-06-25T14:19:18.020+0000] {processor.py:161} INFO - Started process (PID=547) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:19:18.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:19:18.022+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:19:18.022+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:19:18.449+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:19:18.467+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:19:18.467+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:19:18.481+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:19:18.480+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:19:18.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.477 seconds
+[2024-06-25T14:19:48.663+0000] {processor.py:161} INFO - Started process (PID=555) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:19:48.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:19:48.665+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:19:48.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:19:49.089+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:19:49.108+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:19:49.108+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:19:49.124+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:19:49.124+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:19:49.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.479 seconds
+[2024-06-25T14:20:19.282+0000] {processor.py:161} INFO - Started process (PID=563) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:20:19.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:20:19.284+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:20:19.284+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:20:19.768+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:20:19.787+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:20:19.786+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:20:19.805+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:20:19.804+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:20:19.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.542 seconds
+[2024-06-25T14:20:49.966+0000] {processor.py:161} INFO - Started process (PID=571) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:20:49.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:20:49.968+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:20:49.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:20:50.446+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:20:50.465+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:20:50.464+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:20:50.480+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:20:50.480+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:20:50.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.532 seconds
+[2024-06-25T14:21:20.624+0000] {processor.py:161} INFO - Started process (PID=579) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:21:20.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:21:20.626+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:21:20.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:21:21.065+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:21:21.085+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:21:21.084+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:21:21.099+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:21:21.098+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:21:21.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.490 seconds
+[2024-06-25T14:21:51.267+0000] {processor.py:161} INFO - Started process (PID=587) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:21:51.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:21:51.270+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:21:51.269+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:21:51.727+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:21:51.746+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:21:51.745+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:21:51.761+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:21:51.760+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:21:51.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.510 seconds
+[2024-06-25T14:22:21.911+0000] {processor.py:161} INFO - Started process (PID=595) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:22:21.911+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:22:21.913+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:22:21.912+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:22:22.370+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:22:22.388+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:22:22.388+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:22:22.404+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:22:22.403+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:22:22.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.510 seconds
+[2024-06-25T14:22:52.568+0000] {processor.py:161} INFO - Started process (PID=603) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:22:52.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:22:52.570+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:22:52.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:22:53.005+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:22:53.033+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:22:53.032+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:22:53.063+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:22:53.063+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:22:53.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.515 seconds
+[2024-06-25T14:23:23.154+0000] {processor.py:161} INFO - Started process (PID=617) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:23:23.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:23:23.156+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:23:23.156+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:23:23.637+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:23:23.656+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:23:23.655+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:23:23.671+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:23:23.671+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:23:23.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.534 seconds
+[2024-06-25T14:23:53.834+0000] {processor.py:161} INFO - Started process (PID=625) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:23:53.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:23:53.836+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:23:53.836+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:23:54.288+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:23:54.306+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:23:54.306+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:23:54.321+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:23:54.321+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:23:54.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.507 seconds
+[2024-06-25T14:24:24.462+0000] {processor.py:161} INFO - Started process (PID=633) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:24:24.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:24:24.464+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:24:24.464+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:24:24.883+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:24:24.902+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:24:24.902+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:24:24.917+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:24:24.916+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:24:24.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.471 seconds
+[2024-06-25T14:24:55.073+0000] {processor.py:161} INFO - Started process (PID=641) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:24:55.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:24:55.075+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:24:55.075+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:24:55.493+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:24:55.513+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:24:55.512+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:24:55.528+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:24:55.528+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:24:55.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.472 seconds
+[2024-06-25T14:25:25.687+0000] {processor.py:161} INFO - Started process (PID=649) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:25:25.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:25:25.689+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:25:25.689+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:25:26.137+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:25:26.156+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:25:26.156+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:25:26.172+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:25:26.172+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:25:26.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.502 seconds
+[2024-06-25T14:25:56.311+0000] {processor.py:161} INFO - Started process (PID=657) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:25:56.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:25:56.313+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:25:56.313+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:25:56.761+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:25:56.781+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:25:56.780+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:25:56.796+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:25:56.795+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:25:56.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.500 seconds
+[2024-06-25T14:26:26.962+0000] {processor.py:161} INFO - Started process (PID=665) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:26:26.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:26:26.964+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:26:26.964+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:26:27.402+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:26:27.423+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:26:27.422+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:26:27.440+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:26:27.439+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:26:27.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.494 seconds
+[2024-06-25T14:26:57.560+0000] {processor.py:161} INFO - Started process (PID=673) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:26:57.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:26:57.563+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:26:57.562+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:26:57.986+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:26:58.005+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:26:58.004+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:26:58.020+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:26:58.020+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:26:58.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.477 seconds
+[2024-06-25T14:27:28.220+0000] {processor.py:161} INFO - Started process (PID=681) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:27:28.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:27:28.222+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:27:28.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:27:28.669+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:27:28.688+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:27:28.688+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:27:28.704+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:27:28.703+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:27:28.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.503 seconds
+[2024-06-25T14:27:58.819+0000] {processor.py:161} INFO - Started process (PID=689) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:27:58.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:27:58.821+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:27:58.821+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:27:59.272+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:27:59.290+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:27:59.290+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:27:59.308+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:27:59.307+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:27:59.321+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.506 seconds
+[2024-06-25T14:28:29.465+0000] {processor.py:161} INFO - Started process (PID=697) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:28:29.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:28:29.467+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:28:29.467+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:28:29.895+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:28:29.914+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:28:29.913+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:28:29.929+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:28:29.929+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:28:29.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.505 seconds
+[2024-06-25T14:29:00.081+0000] {processor.py:161} INFO - Started process (PID=705) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:29:00.081+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:29:00.083+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:29:00.082+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:29:00.514+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:29:00.533+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:29:00.532+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:29:00.548+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:29:00.548+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:29:00.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.504 seconds
+[2024-06-25T14:29:30.730+0000] {processor.py:161} INFO - Started process (PID=713) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:29:30.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:29:30.732+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:29:30.732+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:29:31.205+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:29:31.225+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:29:31.225+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:29:31.243+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:29:31.242+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:29:31.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.572 seconds
+[2024-06-25T14:30:01.431+0000] {processor.py:161} INFO - Started process (PID=721) to work on /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:30:01.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/extractAPIdata.py for tasks to queue
+[2024-06-25T14:30:01.433+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:30:01.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:30:01.913+0000] {processor.py:840} INFO - DAG(s) 'nasa_to_s3' retrieved from /opt/airflow/dags/extractAPIdata.py
+[2024-06-25T14:30:01.933+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:30:01.933+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-25T14:30:01.950+0000] {logging_mixin.py:188} INFO - [2024-06-25T14:30:01.950+0000] {dag.py:3954} INFO - Setting next_dagrun for nasa_to_s3 to 2024-06-25 00:00:00+00:00, run_after=2024-06-26 00:00:00+00:00
+[2024-06-25T14:30:01.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/extractAPIdata.py took 0.565 seconds
